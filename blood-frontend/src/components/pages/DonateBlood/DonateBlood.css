@@ -1,0 +1,65 @@
+/*
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30rcap;
+  width: 100%!important;
+  box-sizing: border-box!important;
+  padding-top:0;
+  
+ 
+ 
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #e2091f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 50%;
+  margin: auto;
+}
+
+button[type="submit"]:hover {
+  background-color: #b62828;
+}
+
+button[type="submit"]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
